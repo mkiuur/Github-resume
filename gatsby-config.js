@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/Github-resume',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
