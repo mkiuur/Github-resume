@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Computer Engineer',
+  title: '',
   name: 'Margaret Riese',
   subtitle: 'Computer Engineer',
   cta: '',
@@ -29,22 +29,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Pitch Fix Image.jpg',
     title: 'Pitch Fix | Python',
     info:
-      'From 2019 to 2020, I worked with a small team to create a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase. I researched and implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used in other parts of the application to detect vocal strain. I also researched benchmark GUIs and designed all of the assets for the application as well as building the user interface.',
+      'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase. I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
     info2: '',
-    url: 'Pitch Fix Image.jpg',
+    url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'earth.gif',
+    title: 'Knights and Monsters | C++',
+    info:
+      'I have extensive experience with object oriented development in C/C++. In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system. I used linear blend skinning to make the mesh deform smoothly near joints. I did this by smoothly varying weights in the mesh to produce a smooth deformation. I also built a ray tracing system, a shader pipeline, and a bounding volume hierarchy system so that the assets could be lit by multiple different types of light sources while maintaining performance.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://drive.google.com/file/d/1POJwsj8IPA_KsEzQpIXfnTAI3qgrXA_b/view?usp=sharing',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
