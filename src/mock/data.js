@@ -44,8 +44,7 @@ export const projectsData = [
     info:
       'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system. I used linear blend skinning to make the mesh deform smoothly near joints. I also built a ray tracing system, a shader pipeline, and a bounding volume hierarchy system so that the assets could be lit by multiple different types of light sources while maintaining performance.',
     info2: '',
-    url:
-      'https://drive.google.com/file/https://drive.google.com/drive/folders/1cTKl6DfXOUWM3e02EJwquPMYs-JzBDfh?usp=sharingd/1POJwsj8IPA_KsEzQpIXfnTAI3qgrXA_b/view?usp=sharing',
+    url: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/view?usp=sharing',
     repo: 'https://github.com/mkiuur/Computer-Graphics', // if no repo, the button will not show up
   },
   {
@@ -56,7 +55,7 @@ export const projectsData = [
       'Beta Demonstration Phone App for social media - mapping extension - App for finding friends location on map similar to Snapchat Bitmoji map feature',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
