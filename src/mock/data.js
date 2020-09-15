@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'Work_Photo.jpg',
   paragraphOne:
-    'I am a Computer Engineer with industry experience building and maintaining large software applications. I specialize in C/C++ and Python. Take a look at my work and feel free to reach out!',
+    'I am a Canadian Computer Engineer with industry experience building and maintaining large software applications. I specialize in C/C++ and Python. Take a look at my work and feel free to reach out!',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://drive.google.com/file/d/13_lCtgol_VL0ybbYB13QqvnAUJ7H592x/view?usp=sharing', // if no resume, the button will not show up
@@ -39,7 +39,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'earth.gif',
+    img: 'Knights and Monsters Image.png',
     title: 'Knights and Monsters | C++',
     info:
       'I have extensive experience with object oriented development in C/C++. In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system. I used linear blend skinning to make the mesh deform smoothly near joints. I did this by smoothly varying weights in the mesh to produce a smooth deformation. I also built a ray tracing system, a shader pipeline, and a bounding volume hierarchy system so that the assets could be lit by multiple different types of light sources while maintaining performance.',
@@ -60,7 +60,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '647 787 6180',
+  cta: 'mkiuur@gmail.com',
   btn: '',
   email: 'mkiuur@gmail.com',
 };
