@@ -30,11 +30,12 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Pitch Fix | Python',
+    info:
+      'From 2019 to 2020, I worked with a small team to create a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase. I researched and implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used in other parts of the application to detect vocal strain. I also researched benchmark GUIs and designed all of the assets for the application as well as building the user interface.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'Pitch Fix Image.jpg',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
