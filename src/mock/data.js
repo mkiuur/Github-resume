@@ -39,7 +39,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Knights and Monsters Image.png',
+    img: 'Knights and Monsters Image.jpg',
     title: 'Knights and Monsters | C++',
     info:
       'I have extensive experience with object oriented development in C/C++. In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system. I used linear blend skinning to make the mesh deform smoothly near joints. I did this by smoothly varying weights in the mesh to produce a smooth deformation. I also built a ray tracing system, a shader pipeline, and a bounding volume hierarchy system so that the assets could be lit by multiple different types of light sources while maintaining performance.',
@@ -49,9 +49,10 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Friend Connect Image.jpg',
+    title: 'Friend Connect | Framer',
+    info:
+      'Beta Demonstration Phone App for social media - mapping extension - App for finding friends location on map similar to Snapchat Bitmoji map feature',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
