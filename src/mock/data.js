@@ -4,12 +4,12 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Margaret Riese | Computer Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Margaret Riese Portfolio Website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Computer Engineer',
   name: 'Margaret Riese',
   subtitle: 'Computer Engineer',
   cta: '',
@@ -18,7 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Work_Photo.jpg',
-  paragraphOne: '',
+  paragraphOne:
+    'I am a Computer Engineer with industry experience building and maintaining large software applications. I specialize in C/C++ and Python. Take a look at my work and feel free to reach out!',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://drive.google.com/file/d/13_lCtgol_VL0ybbYB13QqvnAUJ7H592x/view?usp=sharing', // if no resume, the button will not show up
@@ -57,7 +58,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: '647 787 6180',
   btn: '',
   email: 'mkiuur@gmail.com',
 };
@@ -65,16 +66,16 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
