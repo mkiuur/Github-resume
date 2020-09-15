@@ -42,10 +42,11 @@ export const projectsData = [
     img: 'Knights and Monsters Image.jpg',
     title: 'Knights and Monsters | C++',
     info:
-      'I have extensive experience with object oriented development in C/C++. In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system. I used linear blend skinning to make the mesh deform smoothly near joints. I did this by smoothly varying weights in the mesh to produce a smooth deformation. I also built a ray tracing system, a shader pipeline, and a bounding volume hierarchy system so that the assets could be lit by multiple different types of light sources while maintaining performance.',
+      'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system. I used linear blend skinning to make the mesh deform smoothly near joints. I also built a ray tracing system, a shader pipeline, and a bounding volume hierarchy system so that the assets could be lit by multiple different types of light sources while maintaining performance.',
     info2: '',
-    url: 'https://drive.google.com/file/d/1POJwsj8IPA_KsEzQpIXfnTAI3qgrXA_b/view?usp=sharing',
-    repo: '', // if no repo, the button will not show up
+    url:
+      'https://drive.google.com/file/https://drive.google.com/drive/folders/1cTKl6DfXOUWM3e02EJwquPMYs-JzBDfh?usp=sharingd/1POJwsj8IPA_KsEzQpIXfnTAI3qgrXA_b/view?usp=sharing',
+    repo: 'https://github.com/mkiuur/Computer-Graphics', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
