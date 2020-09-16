@@ -41,14 +41,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Knights and Monsters Image.jpg',
+    img: 'Knights & Monsters Image.jpg',
     title: 'Knights and Monsters | C++',
     info:
       'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
     info2:
       'I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
     url: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/view?usp=sharing',
-    repo: 'https://github.com/mkiuur/Computer-Graphics', // if no repo, the button will not show up
+    repo: 'https://github.com/mkiuur/Knights-and-Monsters', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -56,7 +56,7 @@ export const projectsData = [
     title: 'Friend Connect | Framer',
     info: 'In 2016 I created a beta demonstration phone app for social media - a mapping extension',
     info2: "The app found friends locations on a map similar to Snapchat's Bitmoji map feature",
-    url: '',
+    url: 'https://drive.google.com/file/d/15qXVYjBh2GNuhln1BZ5YJVtMksu1us0G/view?usp=sharing',
     repo: '', // if no repo, the button will not show up
   },
 ];
