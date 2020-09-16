@@ -42,7 +42,7 @@ export const projectsData = [
     img: 'Knights and Monsters Image.jpg',
     title: 'Knights and Monsters | C++',
     info:
-      'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system. I used linear blend skinning to make the mesh deform smoothly near joints. I also built a ray tracing system, a shader pipeline, and a bounding volume hierarchy system so that the assets could be lit by multiple different types of light sources while maintaining performance.',
+      'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system. I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
     info2: '',
     url: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/view?usp=sharing',
     repo: 'https://github.com/mkiuur/Computer-Graphics', // if no repo, the button will not show up
