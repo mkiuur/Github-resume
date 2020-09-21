@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Knights & Monsters Image.jpg',
+    img: 'Knights and Monsters Image.jpg',
     title: 'Knights and Monsters | C++',
     info:
       'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
