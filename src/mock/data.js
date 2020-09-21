@@ -89,7 +89,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://mkiuur.github.io/Github-resume/projects',
+      url: 'https://github.com/mkiuur',
     },
   ],
 };
