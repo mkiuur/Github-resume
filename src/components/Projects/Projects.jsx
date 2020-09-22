@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from "gatsby"
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -110,6 +111,14 @@ const Projects = () => {
               </Row>
             );
           })}
+          <div>
+            <Link
+              to="/projects"
+              className="cta-btn cta-btn--hero"
+            >
+              View all projects
+            </Link>
+          </div>
         </div>
       </Container>
     </section>
