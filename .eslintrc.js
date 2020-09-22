@@ -6,14 +6,14 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'import/no-extraneous-dependencies': 'off',
-    'prettier/prettier': 'error',
-    'no-console': 'warn',
-    'react/jsx-one-expression-per-line': 'off',
-    'react/jsx-filename-extension': 'off', // disable if necessary
-    'react/static-property-placement': 'off', // disable if necessary
-    'react/jsx-props-no-spreading': 'off', // disable if necessary
-    'react/require-default-props': 'off',
+    'import/no-extraneous-dependencies': 0,
+    'prettier/prettier': 0, //disabled
+    'no-console': 0, //disabled
+    'react/jsx-one-expression-per-line': 0,
+    'react/jsx-filename-extension': 0, // disable if necessary
+    'react/static-property-placement': 0, // disable if necessary
+    'react/jsx-props-no-spreading': 0, // disable if necessary
+    'react/require-default-props': 0,
   },
   parser: 'babel-eslint',
 };
