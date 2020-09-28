@@ -37,7 +37,7 @@ export const projectsData = [
     info2:
       'I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
     url: 'https://drive.google.com/file/d/1eZJnlv00kQMYxOWo_nzvOHpjvYeaV2O8/view?usp=sharing',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/mkiuur/Pitch-Fix-Public', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
