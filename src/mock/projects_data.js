@@ -31,6 +31,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Pitch Fix Image.jpg',
+    img: 'https://drive.google.com/file/d/1eZJnlv00kQMYxOWo_nzvOHpjvYeaV2O8/preview',
     title: 'Pitch Fix | Python',
     info:
       'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase.',
@@ -42,6 +43,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Knights and Monsters Image.jpg',
+    img: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/preview',
     title: 'Knights and Monsters | C++',
     info:
       'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
@@ -53,10 +55,22 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Friend Connect Image.jpg',
+    // img: 'hug.gif',
+    // img: 'otter.gif',
     title: 'Friend Connect | Framer',
     info: 'In 2016 I created a beta demonstration phone app for social media - a mapping extension',
     info2: "The app found friends locations on a map similar to Snapchat's Bitmoji map feature",
     url: 'https://drive.google.com/file/d/15qXVYjBh2GNuhln1BZ5YJVtMksu1us0G/view?usp=sharing',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'AnimationLearningImage.jpg',
+    // img: 'https://www.youtube.com/watch?v=4Hg1Kudd_x4&ab_channel=HomeworkRadio',
+    title: 'Unity Animation Demonstrations | C#, Unity',
+    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
+    info2: "This project is a part of my personal development and is ongoing",
+    url: '',
     repo: '', // if no repo, the button will not show up
   },
 ];

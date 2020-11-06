@@ -46,9 +46,21 @@ const ProjectImg = ({ filename, alt }) => (
       else
       {
         console.log("video loaded " + filename)
-        return <ReactPlayer
-        url={filename} 
-        controls={true} />;
+
+        if(filename.includes("youtube.com/"))
+        {
+          return <ReactPlayer
+          url={filename} 
+          controls={true} />;
+        }
+        else if(filename.includes("drive.google.com"))
+        {
+          return <iframe src={filename} 
+          width={"640"} 
+          height={"400"}
+          >
+          </iframe>;
+        }
       }
     }}
   />
