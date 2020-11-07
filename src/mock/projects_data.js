@@ -37,7 +37,7 @@ export const projectsData = [
       'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase.',
     info2:
       'I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
-    url: 'https://drive.google.com/file/d/1eZJnlv00kQMYxOWo_nzvOHpjvYeaV2O8/view?usp=sharing',
+    url: '../pitchFix',
     repo: 'https://github.com/mkiuur/Pitch-Fix-Public', // if no repo, the button will not show up
   },
   {
@@ -49,7 +49,7 @@ export const projectsData = [
       'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
     info2:
       'I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
-    url: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/view?usp=sharing',
+    url: '../knights-and-monsters',
     repo: 'https://github.com/mkiuur/Knights-and-Monsters', // if no repo, the button will not show up
   },
   {

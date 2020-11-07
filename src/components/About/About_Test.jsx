@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="Test" />
+        <Title title="Projects" />
       </Container>
     </section>
   );
