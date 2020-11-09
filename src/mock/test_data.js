@@ -68,6 +68,42 @@ export const projectsData = [
     url: '',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'bob-subdivision.gif',
+    title: 'Meshes',
+    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
+    info2: "This project is a part of my personal development and is ongoing",
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'giphy 2.gif',
+    title: 'Shader Pipeline',
+    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
+    info2: "This project is a part of my personal development and is ongoing",
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/preview',
+    title: 'Kinematics',
+    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
+    info2: "This project is a part of my personal development and is ongoing",
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'flag.gif',
+    title: 'Mass Spring System',
+    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
+    info2: "This project is a part of my personal development and is ongoing",
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
