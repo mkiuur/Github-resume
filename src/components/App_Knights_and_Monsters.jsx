@@ -3,7 +3,7 @@ import Hero from './Hero/Hero';
 import About from './About/About_Knights_And_Monsters';
 import Projects from './Projects/TestList';
 import Contact from './Contact/Contact';
-import Footer from './Footer/Footer_Projects';
+import Footer from './Footer/Footer_Project';
 
 import { PortfolioProvider } from '../context/context';
 

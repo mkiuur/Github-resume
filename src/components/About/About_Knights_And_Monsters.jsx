@@ -28,7 +28,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about">
+    <section id="knightsandmonsters">
       <Container>
         <Title title="Knights and Monsters" />
         <div className="project-wrapper">

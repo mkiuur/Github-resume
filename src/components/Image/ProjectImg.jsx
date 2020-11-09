@@ -1,10 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
 import "../../Imports/ImportGifs"
-import ReactPlayer from "react-player"
-
 
 const ProjectImg = ({ filename, alt }) => (
   <StaticQuery
@@ -30,37 +27,24 @@ const ProjectImg = ({ filename, alt }) => (
       // console.log(image)
       // if (!image) return null;
       console.log(filename)
-
+ 
+      // filename = "https://www.youtube.com/embed/VnXhJcZGok8";
       var file_extention = filename.substring(filename.length-4,filename.length);
-      if (file_extention == ".jpg")
+      switch(file_extention)
       {
-        const imageFluid = image.node.childImageSharp.fluid;
-        console.log("image loaded")
-        return <Img alt={alt} fluid={imageFluid} />;
-      }
-      else if (file_extention == ".gif")
-      {
-        console.log("gif loaded")
-        return <img src={require ('../../images/'+filename)} />;
-      }
-      else
-      {
-        console.log("video loaded " + filename)
-
-        if(filename.includes("youtube.com/"))
-        {
-          return <ReactPlayer
-          url={filename} 
-          controls={true} />;
-        }
-        else if(filename.includes("drive.google.com"))
-        {
-          return <iframe src={filename} 
-          width={"640"} 
-          height={"400"}
-          >
-          </iframe>;
-        }
+        case '.jpg':
+        case '.png':
+        case '.gif':
+          return <img src={require ('../../images/'+filename)} 
+          style={{maxWidth:600, maxHeight:400}}/>;
+        default:
+          return <iframe 
+          width="560" 
+          height="315" 
+          src={filename} 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>;
       }
     }}
   />
