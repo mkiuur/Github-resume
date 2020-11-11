@@ -21,3 +21,11 @@ import handanimationspedupGIF from '../images/hand-animation-sped-up.gif'
 import skirtGIF from '../images/skirt.gif'
 import flagGIF from '../images/flag.gif'
 import netGIF from '../images/net.gif'
+
+//Learning Unity Animation Features GIFs
+import BooleanAnimationControllerGIF from '../images/Boolean Animation Controller.gif'
+import _2DBlendTreesGIF from '../images/2D Blend Trees.gif'
+import _1DBlendTreesGIF from '../images/1D Blend Trees.gif'
+import AnimationRetargettingBeforeGIF from '../images/Animation Retargetting Before.gif'
+import AnimationRetargettingAfterGIF from '../images/Animation Retargetting After.gif'
+import AnimationLayersGIF from '../images/Animation Layers.gif'
