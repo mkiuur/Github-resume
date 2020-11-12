@@ -28,9 +28,20 @@ const About = () => {
   }, []);
 
   return (
-    <section id="knightsandmonsters">
+    <section id="project_item">
       <Container>
-        <Title title={paragraphOne || ""} />
+        <Title title={paragraphOne || ''} />
+        <Fade
+          bottom={isDesktop}
+          bottom={isMobile}
+          duration={1000}
+          delay={500}
+          distance="30px"
+        >
+          <p className="project_item__text">
+            {paragraphTwo || ''}
+          </p>
+        </Fade>
         <div className="project-wrapper">
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
@@ -54,14 +65,14 @@ const About = () => {
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       {repo && (
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="cta-btn cta-btn--resume"
-                            href={repo}
-                          >
-                            Source Code
-                    </a>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--resume"
+                          href={repo}
+                        >
+                          Source Code
+                        </a>
                       )}
                     </div>
                   </Fade>

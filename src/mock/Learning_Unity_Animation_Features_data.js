@@ -21,8 +21,8 @@ export const aboutData = {
   paragraphOne:
     'Learning Unity Animation Features',
   paragraphTwo:
-    'Even when I leave the office, I tend to be coding at home. Most recently I have been working on a cyberpunk racing game and a website for a local gallery.',
-  paragraphThree: 'Take a look at my work and feel free to reach out!',
+    'I have recently been learning how to use Unity\'s animation features. Check out my progress!',
+  paragraphThree: '',
   resume: 'https://drive.google.com/file/d/13_lCtgol_VL0ybbYB13QqvnAUJ7H592x/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -33,9 +33,9 @@ export const projectsData = [
     img: 'Boolean Animation Controller.gif',
     title: 'Boolean Animation Controller',
     info:
-      'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase.',
+      'Animations are changed based on boolean values. e.g. if \'w\' is pressed, she will walk, if \'shift\' is pressed, she will run.',
     info2:
-      'I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
+      'Switching between walking and running animations is immediate and choppy looking.',
     url: '',
     repo: 'https://github.com/mkiuur/Learning-Unity-Animation-Features/blob/main/animationStateController.cs', // if no repo, the button will not show up
   },
@@ -44,9 +44,9 @@ export const projectsData = [
     img: '1D Blend Trees.gif',
     title: '1D Blend Trees',
     info:
-      'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
+      'The animations for walking and running are blended together based on a float value for velocity in the X direction. The longer \'w\' is pressed, the greater the velocity.',
     info2:
-      'I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
+      'As the velocity increases, the running animation will be further blended into the walking animation.',
     url: '',
     repo: 'https://github.com/mkiuur/Learning-Unity-Animation-Features/blob/main/animationStateControllerBlend.cs', // if no repo, the button will not show up
   },
@@ -54,8 +54,8 @@ export const projectsData = [
     id: nanoid(),
     img: '2D Blend Trees.gif',
     title: '2D Blend Trees',
-    info: 'In 2016 I created a beta demonstration phone app for social media - a mapping extension',
-    info2: "The app found friends locations on a map similar to Snapchat's Bitmoji map feature",
+    info: 'The walking and running animations are now blended with a right strafe and left strafe animation depending on the velocity float in the Z direction.',
+    info2: 'The X and Z velocities are locked and reset at 0.5f for walking and 2.0f for running based on whether the \'shift\' key is being pressed.',
     url: '',
     repo: 'https://github.com/mkiuur/Learning-Unity-Animation-Features/blob/main/twoDimensionalAnimationStateController.cs', // if no repo, the button will not show up
   },
@@ -63,8 +63,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'Animation Retargetting Before.gif',
     title: 'Animation Retargetting Before',
-    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
-    info2: "This project is a part of my personal development and is ongoing",
+    info: 'When starting to retarget animations to other characters, because the animations were not mapped to humanoid characters, there were some unexpected results...',
+    info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -72,8 +72,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'Animation Retargetting After.gif',
     title: 'Animation Retargetting After',
-    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
-    info2: "This project is a part of my personal development and is ongoing",
+    info: 'After mapping all the animations to be humanoid using Unity\'s humanoid animation retargetting system, the animations work as expected for all humanoid rigs.',
+    info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -81,8 +81,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'Animation Layers.gif',
     title: 'Animation Layers',
-    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
-    info2: "This project is a part of my personal development and is ongoing",
+    info: 'By creating an mask of the humanoid rig, a separate animation can be used for different parts of the body. ',
+    info2: 'An example of this would be using an upper body mask for an idle pistol holding animation while the lower body continues to play a walking or running animation.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -98,16 +98,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',
