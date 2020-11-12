@@ -26,9 +26,10 @@ const AboutImg = ({ filename, alt }) => (
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
 
       if (!image) return null;
-
-      const imageFixed = image.node.childImageSharp.fixed;
-      return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
+      return <img src={require('../../images/' + filename)}
+        className={"rounded shadow-lg"}
+        alt={alt} 
+        style={{maxWidth:600, maxHeight:400}}/>;
     }}
   />
 );
