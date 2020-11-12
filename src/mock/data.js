@@ -47,7 +47,7 @@ export const projectsData = [
       'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
     info2:
       'I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
-    url: '../knights-and-monsters',
+    url: '/knights-and-monsters',
     repo: 'https://github.com/mkiuur/Knights-and-Monsters', // if no repo, the button will not show up
   },
   {
@@ -57,7 +57,7 @@ export const projectsData = [
     title: 'Unity Animation Demonstrations | C#, Unity',
     info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
     info2: "This project is a part of my personal development and is ongoing",
-    url: '../learning-unity-animation-features',
+    url: '/learning-unity-animation-features',
     repo: 'https://github.com/mkiuur/Learning-Unity-Animation-Features', // if no repo, the button will not show up
   },
 ];
