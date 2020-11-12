@@ -71,7 +71,7 @@ export const projectsData = [
     info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
     info2: "This project is a part of my personal development and is ongoing",
     url: '../learning-unity-animation-features',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/mkiuur/Learning-Unity-Animation-Features', // if no repo, the button will not show up
   },
 ];
 

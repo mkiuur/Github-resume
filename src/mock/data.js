@@ -47,17 +47,18 @@ export const projectsData = [
       'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
     info2:
       'I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
-    url: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/view?usp=sharing',
+    url: '../knights-and-monsters',
     repo: 'https://github.com/mkiuur/Knights-and-Monsters', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'Friend Connect Image.jpg',
-    title: 'Friend Connect | Framer',
-    info: 'In 2016 I created a beta demonstration phone app for social media - a mapping extension',
-    info2: "The app found friends locations on a map similar to Snapchat's Bitmoji map feature",
-    url: 'https://drive.google.com/file/d/15qXVYjBh2GNuhln1BZ5YJVtMksu1us0G/view?usp=sharing',
-    repo: '', // if no repo, the button will not show up
+    img: 'AnimationLearningImage.jpg',
+    // img: 'https://www.youtube.com/watch?v=4Hg1Kudd_x4&ab_channel=HomeworkRadio',
+    title: 'Unity Animation Demonstrations | C#, Unity',
+    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
+    info2: "This project is a part of my personal development and is ongoing",
+    url: '../learning-unity-animation-features',
+    repo: 'https://github.com/mkiuur/Learning-Unity-Animation-Features', // if no repo, the button will not show up
   },
 ];
 
