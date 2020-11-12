@@ -37,7 +37,7 @@ export const projectsData = [
       'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase.',
     info2:
       'I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
-    url: '../pitchFix',
+    url: 'https://drive.google.com/file/d/1eZJnlv00kQMYxOWo_nzvOHpjvYeaV2O8/view?usp=sharing',
     repo: 'https://github.com/mkiuur/Pitch-Fix-Public', // if no repo, the button will not show up
   },
   {
