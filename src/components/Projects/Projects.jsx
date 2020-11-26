@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -44,18 +44,13 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info || ''}
-                        </p>
+                        <p>{info || ''}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       {/* <div> */}
-                        <Link
-                          to={url || '#!'}
-                          className="cta-btn cta-btn--hero"
-                        >
-                          See Live
-                        </Link>
+                      <Link to={url || '#!'} className="cta-btn cta-btn--hero">
+                        See Live
+                      </Link>
                       {/* </div> */}
                       {/* <a
                         target="_blank"
@@ -67,7 +62,6 @@ const Projects = () => {
                       </a> */}
 
                       {repo && (
-
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -89,30 +83,30 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
+                      {/* <a
                         href={url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
+                      > */}
+                      <Tilt
+                        options={{
+                          reverse: false,
+                          max: 8,
+                          perspective: 1000,
+                          scale: 1,
+                          speed: 300,
+                          transition: true,
+                          axis: null,
+                          reset: true,
+                          easing: 'cubic-bezier(.03,.98,.52,.99)',
+                        }}
                       >
-                        <Tilt
-                          options={{
-                            reverse: false,
-                            max: 8,
-                            perspective: 1000,
-                            scale: 1,
-                            speed: 300,
-                            transition: true,
-                            axis: null,
-                            reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
-                          <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
-                          </div>
-                        </Tilt>
-                      </a>
+                        <div data-tilt className="thumbnail rounded">
+                          <ProjectImg alt={title} filename={img} />
+                        </div>
+                      </Tilt>
+                      {/* </a> */}
                     </div>
                   </Fade>
                 </Col>
@@ -120,10 +114,7 @@ const Projects = () => {
             );
           })}
           <div>
-            <Link
-              to="/projects"
-              className="cta-btn cta-btn--hero"
-            >
+            <Link to="/projects" className="cta-btn cta-btn--hero">
               View all projects
             </Link>
           </div>

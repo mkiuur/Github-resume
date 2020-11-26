@@ -25,7 +25,7 @@ const Footer = () => {
           <Col></Col>
           <Col>
             <div>
-              <Link to={'/projects'} className="cta-btn cta-btn--hero">
+              <Link to={'/'} className="cta-btn cta-btn--hero">
                 Return to main page
               </Link>
               {/* <Link href="/" className="cta-btn cta-btn--hero">
