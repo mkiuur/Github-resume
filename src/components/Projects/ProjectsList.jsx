@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -43,19 +43,20 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info || ''}
-                        </p>
+                        <p>{info || ''}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      <Link to={url || '#!'} className="cta-btn cta-btn--hero">
+                        See More
+                      </Link>
+                      {/* <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
-                      >
+                        >
                         See More
-                      </a>
+                      </a> */}
 
                       {repo && (
                         <a
@@ -110,10 +111,7 @@ const Projects = () => {
             );
           })}
           <div>
-            <Link
-              to="../"
-              className="cta-btn cta-btn--hero"
-            >
+            <Link to="../" className="cta-btn cta-btn--hero">
               Return to main page
             </Link>
           </div>
