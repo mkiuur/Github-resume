@@ -29,3 +29,10 @@ import _1DBlendTreesGIF from '../images/1D Blend Trees.gif'
 import AnimationRetargettingBeforeGIF from '../images/Animation Retargetting Before.gif'
 import AnimationRetargettingAfterGIF from '../images/Animation Retargetting After.gif'
 import AnimationLayersGIF from '../images/Animation Layers.gif'
+
+//Witch Rhythm Game GIFs
+import _2DrhythmgametutorialtrimmedGIF from '../images/2D rhythm game tutorial trimmed.gif'
+import _2DrhythmgamewithpoolingtrimmedGIF from '../images/2D rhythm game with pooling trimmed.gif'
+import _3drhythmgamecircleconfigtrimmedGIF from '../images/3d rhythm game circle config trimmed.gif'
+import _3drhythmgametrimmedGIF from '../images/3d rhythm game trimmed.gif'
+import particleeffectsspinanimationsGIF from '../images/particle effects, spin animations.gif'

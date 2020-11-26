@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'Work_Photo.jpg',
   paragraphOne:
-    'Knights and Monsters',
+  'Knights and Monsters',
   paragraphTwo:
-    'Computer graphics systems I worked on to build towards creating my Knights and Monsters demonstration.',
+  'Computer graphics systems I worked on to build towards creating my Knights and Monsters demonstration.',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
 };
@@ -33,9 +33,9 @@ export const projectsData = [
     img: 'raster-images.gif',
     title: 'Raster Images',
     info:
-      'I built a handful of rasterization converters. Given a RGBA picture, the converters would be able to manually rotate, recolor, or perform a number of transformations on the image.',
+    'I built a handful of rasterization converters. Given a RGBA picture, the converters would be able to manually rotate, recolor, or perform a number of transformations on the image.',
     info2:
-      'These functions are manually performed using a number of matrix transformations and manipulations of the RGB, HSL, or alpha values. ',
+    'These functions are manually performed using a number of matrix transformations and manipulations of the RGB, HSL, or alpha values. ',
     url: '',
     repo: 'https://github.com/mkiuur/Knights-and-Monsters/tree/master/raster-images', // if no repo, the button will not show up
   },
@@ -44,9 +44,9 @@ export const projectsData = [
     img: 'casterImages.jpg',
     title: 'Ray Casting',
     info:
-      'The ray caster I built casts rays from the camera into the scene to judge depth and lighting. Combining the components or the casting vectors, the system determines the intersection point of the ray and any object in the scene within view.',
+    'The ray caster I built casts rays from the camera into the scene to judge depth and lighting. Combining the components or the casting vectors, the system determines the intersection point of the ray and any object in the scene within view.',
     info2:
-      'For each pixel in the image, the system generated a ray and then, for each object in the scene, if the ray intersects the object, a pixel color is set. The system is inefficient and is improved upon in later parts of the project.',
+    'For each pixel in the image, the system generated a ray and then, for each object in the scene, if the ray intersects the object, a pixel color is set. The system is inefficient and is improved upon in later parts of the project.',
     url: '',
     repo: 'https://github.com/mkiuur/Knights-and-Monsters/tree/master/ray-casting', // if no repo, the button will not show up
   },

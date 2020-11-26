@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'Work_Photo.jpg',
   paragraphOne:
-    'I am a Canadian Computer Engineer with industry experience building and maintaining large software applications. I specialize in C/C++ and Python.',
+  'I am a Canadian Computer Engineer with industry experience building and maintaining large software applications. I specialize in C/C++ and Python.',
   paragraphTwo:
-    'Even when I leave the office, I tend to be coding at home. Most recently I have been working on a cyberpunk racing game and a website for a local gallery.',
+  'Even when I leave the office, I tend to be coding at home. Most recently I have been working on a little witch themed rhythm game and a website for a local gallery.',
   paragraphThree: 'Take a look at my work and feel free to reach out!',
-  resume: 'https://drive.google.com/file/d/13_lCtgol_VL0ybbYB13QqvnAUJ7H592x/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1T1G5ues8XyVWqMB_ueYOfTkz4LoO7GL8/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -33,9 +33,9 @@ export const projectsData = [
     img: 'Pitch Fix Image.jpg',
     title: 'Pitch Fix | Python',
     info:
-      'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase.',
+    'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase.',
     info2:
-      'I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
+    'I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
     url: 'https://drive.google.com/file/d/1eZJnlv00kQMYxOWo_nzvOHpjvYeaV2O8/view?usp=sharing',
     repo: 'https://github.com/mkiuur/Pitch-Fix-Public', // if no repo, the button will not show up
   },
@@ -44,9 +44,9 @@ export const projectsData = [
     img: 'Knights and Monsters Image.jpg',
     title: 'Knights and Monsters | C++',
     info:
-      'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
+    'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
     info2:
-      'I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
+    'I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
     url: '/knights-and-monsters',
     repo: 'https://github.com/mkiuur/Knights-and-Monsters', // if no repo, the button will not show up
   },
