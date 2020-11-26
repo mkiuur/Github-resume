@@ -30,17 +30,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'Pitch Fix Image.jpg',
-    title: 'Pitch Fix | Python',
-    info:
-    'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase.',
-    info2:
-    'I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
-    url: 'https://drive.google.com/file/d/1eZJnlv00kQMYxOWo_nzvOHpjvYeaV2O8/view?usp=sharing',
-    repo: 'https://github.com/mkiuur/Pitch-Fix-Public', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'Knights and Monsters Image.jpg',
     title: 'Knights and Monsters | C++',
     info:
@@ -59,6 +48,15 @@ export const projectsData = [
     info2: "This project is a part of my personal development and is ongoing",
     url: '/learning-unity-animation-features',
     repo: 'https://github.com/mkiuur/Learning-Unity-Animation-Features', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'witch-rhythm-game.jpg',
+    title: 'Witch Rhythm Game | C#, Unity',
+    info: 'Create helpful potions by casting spells along to music! The purpose of this project is further my knowledge about game development and Unity\'s animation features.',
+    info2: "This project is a part of my personal development and is ongoing",
+    url: '/witch-rhythm-game',
+    repo: 'https://github.com/mkiuur/Witch-Rhythm-Game', // if no repo, the button will not show up
   },
 ];
 

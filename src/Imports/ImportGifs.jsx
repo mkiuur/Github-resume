@@ -1,5 +1,4 @@
 //Test GIFs
-
 import duckGIF from '../images/otter.gif'
 import isopolyGIF from '../images/Isopoly_01.gif'
 import giphyGIF from '../images/giphy.gif'
