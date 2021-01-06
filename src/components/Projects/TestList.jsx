@@ -2,10 +2,10 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import ProjectImg from '../Image/ProjectImg';
+import TestImg from '../Image/TestImg';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -43,9 +43,7 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info || ''}
-                        </p>
+                        <p>{info || ''}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
@@ -99,9 +97,7 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            
-                            <ProjectImg alt={title} filename={img} />
-                          
+                            <TestImg alt={title} filename={img} />
                           </div>
                         </Tilt>
                       </a>
@@ -112,10 +108,7 @@ const Projects = () => {
             );
           })}
           <div>
-            <Link
-              to="../"
-              className="cta-btn cta-btn--hero"
-            >
+            <Link to="../" className="cta-btn cta-btn--hero">
               Return to main page
             </Link>
           </div>

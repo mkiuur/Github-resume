@@ -22,11 +22,54 @@ export const aboutData = {
   paragraphTwo:
     "Create helpful potions by casting spells along to music! The purpose of this project is further my knowledge about game development and Unity's animation features.",
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/13_lCtgol_VL0ybbYB13QqvnAUJ7H592x/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/13_lCtgol_VL0ybbYB13QqvnAUJ7H592x/view?usp=preview', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'Tarot Card Previews.png',
+    title: 'Tarot Card Art Designs',
+    info:
+      'Over the course of a month, I used Procreate to design and create 22 unique major arcana cards to use as skins for the hit boxes.',
+    info2:
+      'More adjustments to these designs will likely need to be made in future. I intend for these cards to be earned and collected throughout the game and equipped and swapped out depending on their multipliers or in game effects.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Amu,Dress,Boots.png',
+    title: 'Learning Blender',
+    info:
+      'I have begun learning how to use Blender so that I can model my character with the clothes from her original concept drawings. So far the basic shape of her dress and boots has been completed.',
+    info2: 'Still to be done are her apron, hat, and other details.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'https://drive.google.com/file/d/1ADDhTmwMDTrlwDvJ1B0HkYlUpUIOvP2S/preview',
+    title: 'Base Asset',
+    info:
+      "I purchased a female child asset (1UP GIRL - Saori Mobile) from the Unity asset store as a base for my game's character. ",
+    info2:
+      'On top of this basic character, I would use blender to model her new clothes and create her dancing and spell casting animations.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Amu Concept Art.png',
+    title: 'Main Character Concept Art',
+    info:
+      'The design aesthetic for the main character is a cute, cottage-core style which led me to turning away from more formal clothing choices like collared shirts, ties, and heels. ',
+    info2:
+      'Instead I opted for an apron with boots and open sleeves for a more natural carefree look to match the cottage in the forest setting of the game.',
+    url: 'www.google.com',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'particle effects, spin animations.gif',

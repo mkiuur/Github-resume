@@ -1,9 +1,9 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import '../../Imports/ImportGifs';
 
-const TestImg = ({ filename, alt }) => (
+const ProjectImg = ({ filename, alt }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -24,11 +24,37 @@ const TestImg = ({ filename, alt }) => (
     `}
     render={(data) => {
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
+      // if (!image) return null;
+      console.log(filename);
 
-      if (!image) return null;
-
-      const imageFluid = image.node.childImageSharp.fluid;
-      return <Img alt={alt} fluid={imageFluid} />;
+      var file_extention = filename.substring(filename.length - 4, filename.length);
+      switch (file_extention) {
+        case '.jpg':
+        case '.png':
+        case '.gif':
+          return (
+            <img
+              src={require('../../images/' + filename)}
+              style={{ maxWidth: 600, maxHeight: 400 }}
+            />
+          );
+        default:
+          <iframe
+            width="560"
+            height="315"
+            src={filename}
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+            name = "iframe_video1"
+          </iframe>;
+          return (
+            <a href="<%=video1[2]%>" target="iframe_video1">
+              <img src="Amu Concept Art.png" />
+            </a>
+          );
+      }
     }}
   />
 );

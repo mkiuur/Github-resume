@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import "../../Imports/ImportGifs"
+import '../../Imports/ImportGifs';
 
 const ProjectImg = ({ filename, alt }) => (
   <StaticQuery
@@ -24,27 +24,31 @@ const ProjectImg = ({ filename, alt }) => (
     `}
     render={(data) => {
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
-      // console.log(image)
       // if (!image) return null;
-      console.log(filename)
- 
-      // filename = "https://www.youtube.com/embed/VnXhJcZGok8";
-      var file_extention = filename.substring(filename.length-4,filename.length);
-      switch(file_extention)
-      {
+      console.log(filename);
+
+      var file_extention = filename.substring(filename.length - 4, filename.length);
+      switch (file_extention) {
         case '.jpg':
         case '.png':
         case '.gif':
-          return <img src={require ('../../images/'+filename)} 
-          style={{maxWidth:600, maxHeight:400}}/>;
+          return (
+            <img
+              src={require('../../images/' + filename)}
+              style={{ maxWidth: 600, maxHeight: 400 }}
+            />
+          );
         default:
-          return <iframe 
-          width="560" 
-          height="315" 
-          src={filename} 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen></iframe>;
+          return (
+            <iframe
+              width="560"
+              height="315"
+              src={filename}
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          );
       }
     }}
   />

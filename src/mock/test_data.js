@@ -18,89 +18,95 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Work_Photo.jpg',
-  paragraphOne:
-    'I am a Canadian Computer Engineer with industry experience building and maintaining large software applications. I specialize in C/C++ and Python.',
+  paragraphOne: 'Witch Rhythm Game',
   paragraphTwo:
-    'Even when I leave the office, I tend to be coding at home. Most recently I have been working on a cyberpunk racing game and a website for a local gallery.',
-  paragraphThree: 'Take a look at my work and feel free to reach out!',
-  resume: 'https://drive.google.com/file/d/13_lCtgol_VL0ybbYB13QqvnAUJ7H592x/view?usp=sharing', // if no resume, the button will not show up
+    "Create helpful potions by casting spells along to music! The purpose of this project is further my knowledge about game development and Unity's animation features.",
+  paragraphThree: '',
+  resume: 'https://drive.google.com/file/d/13_lCtgol_VL0ybbYB13QqvnAUJ7H592x/view?usp=preview', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'raster-images.gif',
-    title: 'Raster Images',
+    img: 'https://drive.google.com/file/d/1ADDhTmwMDTrlwDvJ1B0HkYlUpUIOvP2S/preview',
+    title: 'Main Character Concept Art',
     info:
-      'From 2019 to 2020, I built a vocal misuse detection desktop application in Python which required expert navigation of a large and expanding codebase.',
+      'The design aesthetic for the main character is a cute, cottage-core style which led me to turning away from more formal clothing choices like collared shirts, ties, and heels. ',
     info2:
-      'I implemented an algorithm to isolate the fundamental frequency of a person’s voice, which was then used to detect vocal strain. I also designed all of the assets for the application.',
-    url: 'https://drive.google.com/file/d/1eZJnlv00kQMYxOWo_nzvOHpjvYeaV2O8/view?usp=sharing',
-    repo: 'https://github.com/mkiuur/Pitch-Fix-Public', // if no repo, the button will not show up
+      'Instead I opted for an apron with boots and open sleeves for a more natural carefree look to match the cottage in the forest setting of the game.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'casterImages.jpg',
-    title: 'Ray Casting',
+    img: 'Amu Concept Art.png',
+    title: 'Main Character Concept Art',
     info:
-      'In spring 2020 I made 3D knights and monster assets that could move their limbs and be interacted with in real time. To facilitate movement I created a kinematics and mass spring system.',
+      'The design aesthetic for the main character is a cute, cottage-core style which led me to turning away from more formal clothing choices like collared shirts, ties, and heels. ',
     info2:
-      'I also built a shader pipeline and a bounding volume hierarchy system to light the scene while maintaining performance.',
-    url: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/view?usp=sharing',
-    repo: 'https://github.com/mkiuur/Knights-and-Monsters', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'sphere-and-plane.gif',
-    title: 'Ray Tracing',
-    info: 'In 2016 I created a beta demonstration phone app for social media - a mapping extension',
-    info2: "The app found friends locations on a map similar to Snapchat's Bitmoji map feature",
-    url: 'https://drive.google.com/file/d/15qXVYjBh2GNuhln1BZ5YJVtMksu1us0G/view?usp=sharing',
+      'Instead I opted for an apron with boots and open sleeves for a more natural carefree look to match the cottage in the forest setting of the game.',
+    url: 'www.google.com',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'rubber-ducky-aabb-tree.jpg',
-    title: 'Bounding Volume Hierarchies',
-    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
-    info2: "This project is a part of my personal development and is ongoing",
+    img: 'particle effects, spin animations.gif',
+    title: 'Particle effects and spinning card animations',
+    info:
+      'I added some particle effects and trails to the projectiles to make them look like they were flying as apposed to transforming. I also made the box colliders more card shaped and gave them a spin animation for when they are hit.',
+    info2:
+      'More cards were added so that a player has to incorporate multiple key presses to hit diagonal cards.',
+    url: '',
+    repo: 'https://github.com/mkiuur/Witch-Rhythm-Game', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: '3d rhythm game circle config trimmed.gif',
+    title: 'Circle Configuration',
+    info:
+      'In my original concept I wanted the rhythm game to have a circular configuration. This makes it more difficult becuase it is harder to judge the consecutive order of the required key presses.',
+    info2: 'Down the line I also want to add circular witch themed art.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'bob-subdivision.gif',
-    title: 'Meshes',
-    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
-    info2: "This project is a part of my personal development and is ongoing",
+    img: '3d rhythm game trimmed.gif',
+    title: 'Conversion to 3D',
+    info: 'With the basic game loop completed, I converted the entire project to 3D.',
+    info2: 'I also tried to rotate the projectiles in 3D to give them a less static feel.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'giphy 2.gif',
-    title: 'Shader Pipeline',
-    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
-    info2: "This project is a part of my personal development and is ongoing",
+    img: '2D rhythm game with pooling trimmed.gif',
+    title: 'Object Pooling',
+    info:
+      'Anticipating a large amount of potential instantiations and destructions, I implemented an object pooling system for the projectiles to reuse objects.',
+    info2: 'I also started looking into user interface elements.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'https://drive.google.com/file/d/1SvJnw3wrdw3bZ7VK9aGkerqgs1Tbqo6h/preview',
-    title: 'Kinematics',
-    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
-    info2: "This project is a part of my personal development and is ongoing",
+    img: '2D rhythm game tutorial trimmed.gif',
+    title: 'Rhythm Game Tutorial',
+    info:
+      'I followed a tutorial on how to make a basic rhythm game in Unity and reproduced the example.',
+    info2: 'Through this I learned most of the basic skills I would need moving forward.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'flag.gif',
-    title: 'Mass Spring System',
-    info: 'I am currently working on learning about the animation features available in Unity including blend trees, retargetting, and layering',
-    info2: "This project is a part of my personal development and is ongoing",
+    img: 'witch mini mood board.jpg',
+    title: 'Concept',
+    info:
+      'The basic idea for the game is that a little witch creates potions by casting spells along to music. ',
+    info2:
+      'Projectiles (spells) would fly towards hit boxes (magic cards) for the rhythm game. The witch asset would perform different animations based on the key sequence behind the main gameplay.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -116,16 +122,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',

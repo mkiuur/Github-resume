@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './Hero/Hero';
 import About from './About/About';
-import Projects from './Projects/Projects';
+import Projects from './Projects/TestList';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
 
-import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/test_data';
 
 function App() {
   const [hero, setHero] = useState({});
